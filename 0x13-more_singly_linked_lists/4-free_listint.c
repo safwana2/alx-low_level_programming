@@ -4,9 +4,9 @@
  * free_listint - frees a linked list
  * @head: listint list to be freed
  */
-void free_listint(listint_t*head)
+void free_listint(listint_t *head)
 {
-	listint_t*temp;
+	listint_t *temp;
 
 	while (head)
 	{
